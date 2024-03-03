@@ -12,18 +12,38 @@
         <form action="action.php">
             
             <input type="text" placeholder="user name"><br>
-            <input type="password" placeholder="password">
+            <input type="password" placeholder="password"><br>
 
             <!-- radio button with input type use works when we select on buttons not words -->
             <!-- <input type="radio" value="Red Apple" name="Apple">Red Apple
             <input type="radio" value="Blue Apple" name="Apple">Blue Apple -->
 
             <!-- label use -->
+            <h5>select apple</h5>
             <label for="101">
-                <input type="radio" value="Red Apple" name="Apple" id="101">Red Apple
+                <input type="radio" value="Red Apple" name="Fruit" id="101">Red Apple
             </label>
             <label for="102">
-                <input type="radio" value="Blue Apple" name="Apple" id="102">Blue Apple
+                <input type="radio" value="Blue Apple" name="Fruit" id="102">Blue Apple
+            </label><br><br>
+
+            <!-- label use for multiple select using checkbox -->
+            <h5>Select Fav Fruit</h5>
+            <br>
+            <label for="Banana">
+                <input type="checkbox" value="Banana" name="Fruit" id="102">Banana
+            </label>
+            <label for="Mango">
+                <input type="checkbox" value="Mango" name="Fruit" id="103">Mango
+            </label>
+            <label for="Cherry">
+                <input type="checkbox" value="Cherry" name="Fruit" id="104">Cherry
+            </label>
+            <label for="Grapes">
+                <input type="checkbox" value="Grapes" name="Fruit" id="105">Grapes
+            </label>
+            <label for="Watermelon">
+                <input type="checkbox" value="Watermelon" name="Fruit" id="106">Watermelon
             </label>
 
         </form>
