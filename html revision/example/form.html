@@ -9,22 +9,23 @@
     <header></header>
 
     <main>
+        <h4>Registration Form</h4>
         <form action="action.php">
             
             <input type="text" placeholder="user name"><br>
             <input type="password" placeholder="password"><br>
 
             <!-- radio button with input type use works when we select on buttons not words -->
-            <!-- <input type="radio" value="Red Apple" name="Apple">Red Apple
-            <input type="radio" value="Blue Apple" name="Apple">Blue Apple -->
+            <!-- <input type="radio" value="BCA" name="Apple">BCA
+            <input type="radio" value="MCA" name="Apple">MCA -->
 
             <!-- label use -->
-            <h5>select apple</h5>
+            <h5>Select Your Class</h5>
             <label for="101">
-                <input type="radio" value="Red Apple" name="Fruit" id="101">Red Apple
+                <input type="radio" value="BCA" name="Fruit" id="101">BCA
             </label>
             <label for="102">
-                <input type="radio" value="Blue Apple" name="Fruit" id="102">Blue Apple
+                <input type="radio" value="MCA" name="Fruit" id="102">MCA
             </label><br><br>
 
             <!-- label use for multiple select using checkbox -->
@@ -46,7 +47,18 @@
                 <input type="checkbox" value="Watermelon" name="Fruit" id="106">Watermelon
             </label><br><br>
 
-            <textarea name="feedback" id="1001" placeholder="please give your feedback rows=3"> Feedback </textarea>
+            <!-- dropdown menu -->
+            Select Your City<select name="city" p>
+                <option value="Bournemouth">Bournemouth</option>
+                <option value="Southempton">Southempton</option>
+                <option value="Poole">Poole</option>
+                <option value="London">London</option>
+                <option value="Christchurch">Christchurch</option>
+            </select> <br><br>
+
+            <textarea name="feedback" id="1001" placeholder="please give your feedback rows=3"> Feedback </textarea><br>
+       
+            <input type="submit" value="submit">
         </form>
     </main>
 
