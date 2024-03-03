@@ -10,11 +10,22 @@
 
     <main>
         <form action="action.php">
+            
             <input type="text" placeholder="user name"><br>
             <input type="password" placeholder="password">
 
-            <input type="radio" value="Red Apple" name="Apple">Red Apple
-            <input type="radio" value="Blue Apple" name="Apple">Blue Apple
+            <!-- radio button with input type use works when we select on buttons not words -->
+            <!-- <input type="radio" value="Red Apple" name="Apple">Red Apple
+            <input type="radio" value="Blue Apple" name="Apple">Blue Apple -->
+
+            <!-- label use -->
+            <label for="101">
+                <input type="radio" value="Red Apple" name="Apple" id="101">Red Apple
+            </label>
+            <label for="102">
+                <input type="radio" value="Blue Apple" name="Apple" id="102">Blue Apple
+            </label>
+
         </form>
     </main>
 
